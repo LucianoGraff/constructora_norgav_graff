@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="icon" href="../assets/Norgav.ico" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <img src="../assets/Norgav.png" alt="logo de la empresa" />
+      <h2>NORGAV S.A</h2>
+    </header>
+    <!-- Botones de navegacion entre paginas -->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./especialidades.html">Nuestras Especialidades</a></li>
+        <li><a href="./obras.html">Obras</a></li>
+        <li><a href="./norgavEnergy.html">Norgav Energy</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- Formulario de contacto -->
+    <fieldset class="contactForm">
+      <legend class="contact">Contacto</legend>
+      <form class="form">
+        <input type="text" placeholder="Nombre y Apellido" />
+        <input placeholder="Telefono" />
+        <input type="email" placeholder="Mail" />
+        <select name="contacto" class="contactPreference">
+          <option selected disabled>Preferencia de contacto</option>
+          <option value="Telefono">Telefono</option>
+          <option value="Whatsapp">Whatsapp</option>
+          <option value="Mail">Mail</option>
+        </select>
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Ingrese su mensaje"
+        ></textarea>
+        <input type="submit" value="Enviar" class="submitButton"/>
+      </form>
+    </fieldset>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="location">
+        Ameghino 504 - Villa Martelli - Buenos Aires Argentina
+      </div>
+      <div>
+        <i class="icono-instagram"></i>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="footerIconsSpace"
+          >Instagram</a
+        >
+        <i class="icono-iphone"></i>
+        <a
+          href="https://web.whatsapp.com/"
+          target="_blank"
+          class="footerIconsSpace"
+          >Llamar</a
+        >
+        <i class="icono-mail"></i>
+        <a
+          href="https://mail.google.com/"
+          target="_blank"
+          class="footerIconsSpace"
+          >Gmail</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

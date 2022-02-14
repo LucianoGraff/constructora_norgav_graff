@@ -5,7 +5,49 @@
   padding: 0;
 }
 
-/* Vista mobile */
+/* Efectos Links */ 
+
+a:link {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orangered;
+  letter-spacing: 2px;
+}
+
+/* Efectos index */
+
+.index-header-a {
+  font-family: 'Dongle', sans-serif;
+  font-weight: bold;
+  font-size: 40px !important;
+  color: white;
+} 
+
+.body-index-main {
+  background: url(../assets/indexPicture4.jfif);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Efectos nav bar */
+
+.navigation-buttons {
+  background-color: rgba(0, 0, 0, 0.452) !important;
+  font-family: 'Dongle', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+/*
+
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+
+ Vista mobile 
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   
@@ -20,13 +62,13 @@
     "footer";
   }
 
-  /* Header del index para mobile */
+   Header del index para mobile 
 
   .headerIndex {
     grid-area: header;
   }
     
-  /* Botones de navegacion del index para mobile */
+   Botones de navegacion del index para mobile 
 
   .navIndex {
     grid-area: navigationButtons;
@@ -44,7 +86,7 @@
 
 }
 
-/* Background image*/
+/* Background image
 
 body {
   height: 100%;
@@ -54,7 +96,7 @@ body {
   background-size: cover;
 }
 
-/* Estilos para index */
+/* Estilos para index 
 
 
 .indexMain {  
@@ -96,7 +138,7 @@ body {
 }
 
 
-/* Estilos links */
+/* Estilos links 
 
 a:link {
   text-decoration: none;
@@ -107,7 +149,7 @@ nav a:hover {
   letter-spacing: 2px;
 }
 
-/* Estilos header */
+/* Estilos header
 
 header {
   display: flex;
@@ -128,7 +170,7 @@ header h2 {
   padding-left: 10px;
 }
 
-/* Estilos botones navegacion */
+/* Estilos botones navegacion
 
 nav ul {
   background-color: rgba(0, 0, 0, 0.452);
@@ -146,7 +188,7 @@ nav ul li a {
   color: white;
 }
 
-/* Estilos footer */
+/* Estilos footer
 
 footer {
   font-family: 'Dongle', sans-serif;
@@ -173,7 +215,7 @@ footer a {
 }
 
 
-/* Estilos especialidades */
+/* Estilos especialidades 
 
 
 .mainEspecialidades {
@@ -201,8 +243,8 @@ list-style: none;
 }
 
 
-/* Estilos Norgav Energy */
-/* Se aplica Grid */
+/* Estilos Norgav Energy
+/* Se aplica Grid 
 
 .mainNorgavEnergy {
   background-image: url(../assets/solar2.jfif);
@@ -285,7 +327,7 @@ a.linkCotizacion:hover {
   border-radius: 15px;
 }
 
-/* Estilos contacto */
+/* Estilos contacto
 
 .contactForm {
   position: relative;
@@ -334,7 +376,7 @@ input {
   border-radius: 5px;
 }
 
-/* Estilos Obras */
+/* Estilos Obras 
 
 .mainObras {
   height: 100%;
@@ -400,4 +442,4 @@ input {
   height: 70hv;
   width: 80vh;
 }
-
+*/

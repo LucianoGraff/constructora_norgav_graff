@@ -37,6 +37,13 @@ header a:hover {
   background-position: center;
 }
 
+/* Efectos header */
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /* Efectos nav bar */
 
 .navigation-buttons {

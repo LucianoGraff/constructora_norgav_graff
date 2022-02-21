@@ -11,11 +11,14 @@ a:link {
   text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   color: orangered !important;
   letter-spacing: 2px;
 }
 
+footer a:link {
+  color: black !important;
+}
 
 /* Efectos index */
 
@@ -32,6 +35,40 @@ nav a:hover {
   color: white !important;
 }
 
+.main-index {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  height: 81vh;
+}
+
+.main-content-index {
+  flex-grow: 5;
+  font-size: 35px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+
+.secondary-content-index {
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  flex-grow: 5;
+  padding: 0px 100px 0px 100px;
+}
+
+.background-paragraph {
+  background-color: rgba(255, 255, 255, 0.493);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
 /* Efectos Body */
 
 body {
@@ -42,16 +79,41 @@ body {
   background-position: center;
 }
 
-/* Efectos nav bar */
+/* Estilos Footer */
 
-.navigation-buttons {
-  background-color: rgba(0, 0, 0, 0.452) !important;
-  font-family: 'Dongle', sans-serif;
-  font-weight: bold;
-  font-size: 30px;
+.footer {
+  background-color: rgba(17, 17, 17, 0.5);
+  font-family: 'Dongle', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 
-.a-navigation {
+.footer-location {
+  color: white;
+}
+
+.social-media {
+  
+}
+
+footer div a {
+  color: white ;
+}
+
+/* Estilos contacto */
+
+.contact {
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  color: white;
+  font-size: 45px;
+  padding: 0px 10px 0px 10px;
+}
+
+.form-style {
   color: white;
 }
 

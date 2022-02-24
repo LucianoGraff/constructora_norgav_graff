@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
-
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Efectos Links */ 
+body {
+  font-weight: bold !important;
+}
 
+/* Efectos Links */
 a:link {
   text-decoration: none;
 }
@@ -21,13 +23,12 @@ footer a:link {
 }
 
 /* Efectos index */
-
 .index-header-a {
   font-family: 'Dongle', sans-serif !important;
   font-weight: bold !important;
   font-size: 40px !important;
   color: white !important;
-} 
+}
 
 .index-header-nav {
   font-weight: bold !important;
@@ -37,7 +38,7 @@ footer a:link {
 
 .main-index {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   width: 100%;
   height: 81vh;
 }
@@ -46,7 +47,7 @@ footer a:link {
   flex-grow: 5;
   font-size: 35px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -68,9 +69,7 @@ footer a:link {
   padding: 5px;
 }
 
-
 /* Efectos Body */
-
 body {
   background: url(../assets/indexPicture4.jfif);
   height: 100vh;
@@ -80,7 +79,6 @@ body {
 }
 
 /* Estilos Footer */
-
 .footer {
   background-color: rgba(17, 17, 17, 0.5);
   font-family: 'Dongle', sans-serif !important;
@@ -95,16 +93,11 @@ body {
   color: white;
 }
 
-.social-media {
-  
-}
-
 footer div a {
-  color: white ;
+  color: white;
 }
 
 /* Estilos contacto */
-
 .contact {
   text-align: center;
   font-family: 'Dongle', sans-serif;
@@ -124,8 +117,6 @@ footer div a {
   padding: 0px 5px 0px 15px;
 }
 
-
-
 .submitButton {
   font-weight: bold;
   border: 2px solid white;
@@ -137,7 +128,7 @@ footer div a {
 
 .comentarios {
   width: 100%;
-  height: 100%; 
+  height: 100%;
   box-sizing: border-box;
 }
 

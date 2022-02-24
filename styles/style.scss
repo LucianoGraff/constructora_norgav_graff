@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: bold !important;
+}
+
+/* Efectos Links */ 
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered !important;
+  letter-spacing: 2px;
+}
+
+footer a:link {
+  color: black !important;
+}
+
+/* Efectos index */
+
+.index-header-a {
+  font-family: 'Dongle', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  color: white !important;
+} 
+
+.index-header-nav {
+  font-weight: bold !important;
+  font-size: 15px !important;
+  color: white !important;
+}
+
+.main-index {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  height: 81vh;
+}
+
+.main-content-index {
+  flex-grow: 5;
+  font-size: 35px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+
+.secondary-content-index {
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  flex-grow: 5;
+  padding: 0px 100px 0px 100px;
+}
+
+.background-paragraph {
+  background-color: rgba(255, 255, 255, 0.493);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+/* Efectos Body */
+
+body {
+  background: url(../assets/indexPicture4.jfif);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Estilos Footer */
+
+.footer {
+  background-color: rgba(17, 17, 17, 0.5);
+  font-family: 'Dongle', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer-location {
+  color: white;
+}
+
+
+footer div a {
+  color: white ;
+}
+
+/* Estilos contacto */
+
+.contact {
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  color: white;
+  font-size: 45px;
+  padding: 0px 10px 0px 10px;
+}
+
+.form-style {
+  color: white;
+  height: 81vh;
+  font-weight: bold;
+}
+
+.contactPreference {
+  border-radius: 10px;
+  padding: 0px 5px 0px 15px;
+}
+
+
+
+.submitButton {
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 5px 15px;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.comentarios {
+  width: 100%;
+  height: 100%; 
+  box-sizing: border-box;
+}
+
+/*
+
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+
+ Vista mobile 
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  
+  .indexGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr .5fr 4fr .5fr;
+    grid-template-areas: 
+    "header"
+    "navigationButtons"
+    "indexMain"
+    "footer";
+  }
+
+   Header del index para mobile 
+
+  .headerIndex {
+    grid-area: header;
+  }
+    
+   Botones de navegacion del index para mobile 
+
+  .navIndex {
+    grid-area: navigationButtons;
+  }
+
+  
+  .indexMain {
+    grid-area: indexMain;
+
+  }
+
+  .footerIndex {
+    grid-area: footer;
+  }
+
+}
+
+/* Background image
+
+body {
+  height: 100%;
+  background: url(../assets/indexPicture4.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Estilos para index 
+
+
+.indexMain {  
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  height: 80vh;
+}
+
+.indexPhrase {
+  font-size: 35px;
+  flex-grow: 5;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+
+.alignIndexPhrase {
+  background-color: rgba(240, 248, 255, 0.7);
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+}
+
+.indexDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  flex-grow: 5;
+  padding: 0px 100px 0px 100px;
+}
+
+.alignIndexDescription {
+  background-color: rgba(240, 248, 255, 0.9);
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+
+/* Estilos links 
+
+a:link {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orangered;
+  letter-spacing: 2px;
+}
+
+/* Estilos header
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 35px;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+}
+
+header h2 {
+  padding-left: 10px;
+}
+
+/* Estilos botones navegacion
+
+nav ul {
+  background-color: rgba(0, 0, 0, 0.452);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  font-family: 'Dongle', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav ul li a {
+  color: white;
+}
+
+/* Estilos footer
+
+footer {
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 10px 0px 0px 0px;
+  padding: 5px 20px 5px 20px;
+}
+
+footer div {
+  justify-content: space-evenly;
+}
+
+footer div i {
+  display: flex;
+}
+
+footer a {
+  color: black;
+}
+
+
+/* Estilos especialidades 
+
+
+.mainEspecialidades {
+  padding: 15px 0px 15px 0px;
+  background-color: rgb(146, 169, 189);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  font-family: 'Dongle', sans-serif;
+  font-size: 40px;
+  border-left: 40px solid rgba(0, 0, 0, 0.6);
+  border-right: 40px solid rgba(0, 0, 0, 0.6);
+}
+
+.listEspecialidadesLeft {
+  list-style: none;
+  justify-self: center;
+  padding-right: 40px;
+}
+
+.listEspecialidadesRight {
+list-style: none;
+ justify-self: center;
+ padding-left: 40px;
+}
+
+
+/* Estilos Norgav Energy
+/* Se aplica Grid 
+
+.mainNorgavEnergy {
+  background-image: url(../assets/solar2.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+}
+
+.norvagEnergyHeader {
+  font-family: 'Dongle', sans-serif;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+.norvagEnergySoluciones {
+  font-family: 'Dongle', sans-serif;
+  color: white;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "soluciones soluciones soluciones soluciones"
+  "residenciales residenciales agro agro"
+  "parques parques cotizacion cotizacion";
+}
+
+.soluciones {
+  grid-area: soluciones;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.residenciales {
+  background-color: rgba(240, 248, 255, 0.5);
+  color: black;
+  grid-area: residenciales;
+  text-align: center;
+  font-size: 40px;
+}
+
+.agro {
+  background-color: rgba(240, 248, 255, 0.5);
+  color: black;
+  grid-area: agro;
+  text-align: center;
+  font-size: 40px;
+}
+
+.parques {
+  background-color: rgba(240, 248, 255, 0.5);
+  color: black;
+  grid-area: parques;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cotizacion {
+  background-color: rgba(240, 248, 255, 0.5);
+  text-decoration: black;
+  grid-area: cotizacion;
+  text-align: center;
+  font-size: 40px;
+}
+
+.linkCotizacion {
+  color: black;
+  text-decoration: none;
+}
+
+a.linkCotizacion:hover {
+  color: #e23333bd;
+  letter-spacing: 4px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+}
+
+/* Estilos contacto
+
+.contactForm {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.contact {
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  color: white;
+  font-size: 45px;
+  padding: 0px 10px 0px 10px;
+}
+
+.form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+}
+
+form input {
+  height: 4%;
+}
+
+.contactPreference {
+  height: 4%;
+  border:2px solid rgb(243, 243, 242);
+}
+
+input {
+  border:2px solid rgb(243, 243, 242);
+}
+
+.submitButton {
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 5px 15px;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilos Obras 
+
+.mainObras {
+  height: 100%;
+  background: url(../assets/indexPicture4.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  font-family: 'Dongle', sans-serif;
+  font-size: 35px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "obra-uno imagen-obra-uno"
+  "obra-dos imagen-obra-dos"
+  "obra-tres imagen-obra-tres";
+  padding: 10px 0px 10px 10px;
+  font-weight: bold;
+}
+
+.obraUno {
+  grid-area: obra-uno;
+  border: 10px solid rgba(0, 0, 0, 0.7);
+  height: 68%;
+  padding: 5px 5px 5px 5px;
+}
+
+.imagenObra1 {
+  grid-area: imagen-obra-uno;
+  border: 10px solid rgba(0, 0, 0, 0.7);
+  justify-self: center;
+  height: 60hv;
+  width: 80vh;
+}
+
+.obraDos {
+  grid-area: obra-dos;
+  border: 10px solid rgba(0, 0, 0, 0.7);
+  height: 68%;
+  padding: 5px 5px 5px 5px;
+}
+
+.imagenObra2 {
+  grid-area: imagen-obra-dos;
+  border: 10px solid rgba(0, 0, 0, 0.7);
+  justify-self: center;
+  height: 70%;
+  width: 80vh;
+}
+
+.obraTres {
+  grid-area: obra-tres;
+  border: 10px solid rgba(0, 0, 0, 0.7);
+  height: 68%;
+  padding: 5px 5px 5px 5px;
+}
+
+.imagenObra3 {
+  grid-area: imagen-obra-tres;  
+  border: 10px solid rgba(0, 0, 0, 0.7);
+  justify-self: center;
+  height: 70hv;
+  width: 80vh;
+}
+*/
+
+
+

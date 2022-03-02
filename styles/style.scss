@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
 
+$web-font: 'Dongle', sans-serif;
+
 * {
   margin: 0;
   padding: 0;
@@ -24,10 +26,12 @@ footer a:link {
   color: black !important;
 }
 
+
+
 /* Efectos index */
 
 .index-header-a {
-  font-family: 'Dongle', sans-serif !important;
+  font-family: $web-font !important;
   font-weight: bold !important;
   font-size: 40px !important;
   color: white !important;
@@ -87,7 +91,7 @@ body {
 
 .footer {
   background-color: rgba(17, 17, 17, 0.5);
-  font-family: 'Dongle', sans-serif !important;
+  font-family: $web-font !important;
   font-weight: bold !important;
   font-size: 25px;
   display: flex;
@@ -108,7 +112,7 @@ footer div a {
 
 .contact {
   text-align: center;
-  font-family: 'Dongle', sans-serif;
+  font-family: $web-font;
   color: white;
   font-size: 45px;
   padding: 0px 10px 0px 10px;

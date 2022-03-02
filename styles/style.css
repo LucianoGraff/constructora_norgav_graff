@@ -24,7 +24,7 @@ footer a:link {
 
 /* Efectos index */
 .index-header-a {
-  font-family: 'Dongle', sans-serif !important;
+  font-family: "Dongle", sans-serif !important;
   font-weight: bold !important;
   font-size: 40px !important;
   color: white !important;
@@ -81,7 +81,7 @@ body {
 /* Estilos Footer */
 .footer {
   background-color: rgba(17, 17, 17, 0.5);
-  font-family: 'Dongle', sans-serif !important;
+  font-family: "Dongle", sans-serif !important;
   font-weight: bold !important;
   font-size: 25px;
   display: flex;
@@ -100,7 +100,7 @@ footer div a {
 /* Estilos contacto */
 .contact {
   text-align: center;
-  font-family: 'Dongle', sans-serif;
+  font-family: "Dongle", sans-serif;
   color: white;
   font-size: 45px;
   padding: 0px 10px 0px 10px;
